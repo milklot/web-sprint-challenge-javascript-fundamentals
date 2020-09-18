@@ -106,3 +106,8 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
+
+let consume2_0 = (a, b, cb) => { return cb(a, b) };
+let add2_0 = (a, b) => { return a + b };
+let multiply2_0 = (a, b) => { return a * b };
+let greeting2_0 = (firstName, lastName) => { return `Hello ${firstName} ${lastName}, nice to meet you!` };
